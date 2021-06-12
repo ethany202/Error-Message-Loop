@@ -29,17 +29,34 @@ namespace ErrorMessageLoop
         /// </summary>
         private void InitializeComponent(int x, int y)
         {
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(35, 50);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(313, 25);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Have fun closing all these messages";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Form1
             // 
-            this.ClientSize = new System.Drawing.Size(362, 261);
+            this.ClientSize = new System.Drawing.Size(379, 129);
+            this.Controls.Add(this.label1);
+            this.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Name = "Form1";
             this.ResumeLayout(false);
-            this.Text = "Issue Found";
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Label label1;
     }
 }
 
