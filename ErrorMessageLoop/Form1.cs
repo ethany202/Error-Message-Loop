@@ -20,12 +20,15 @@ namespace ErrorMessageLoop
         {
             rand = new Random();
             InitializeComponent(rand.Next(0, 400), rand.Next(0, 300));
+
+            this.Show();
             for(int i = 1; i < 30; i++)
             {
                 Thread.Sleep(ms);
                 Form2 f2 = new Form2();
                 f2.Show();
             }
+
         }
 
         private void Form1_Load(object sender, EventArgs e)

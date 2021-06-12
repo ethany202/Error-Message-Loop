@@ -15,13 +15,14 @@ namespace ErrorMessageLoop
     {
         private string[] errorTitle = { "Warning!", "Error...", "Issue Occurred" };
         private Bitmap[] icons = {SystemIcons.Warning.ToBitmap(), SystemIcons.Error.ToBitmap(), SystemIcons.Exclamation.ToBitmap() };
+        private string[] messages = { "Operation completely successfully.", "Mouse is broken. Close message to continue.", "Operation failed unsuccessfully." };
         private Random rand;
 
         public Form2()
         {
             rand = new Random();
             int indexVal = rand.Next(0, 3);
-            InitializeComponent(errorTitle[indexVal]);
+            InitializeComponent(errorTitle[indexVal], messages[indexVal]);
             SetIconImage(indexVal);
         }
 

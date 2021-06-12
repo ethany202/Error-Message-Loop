@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ethan_vri3g7p\\Desktop\\error-message-loop\\ErrorMessageLoop\\ErrorMessageLoop.csproj": {}
+    "C:\\Users\\ethan_vri3g7p\\Documents\\error-message-loop\\ErrorMessageLoop\\ErrorMessageLoop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ethan_vri3g7p\\Desktop\\error-message-loop\\ErrorMessageLoop\\ErrorMessageLoop.csproj": {
+    "C:\\Users\\ethan_vri3g7p\\Documents\\error-message-loop\\ErrorMessageLoop\\ErrorMessageLoop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ethan_vri3g7p\\Desktop\\error-message-loop\\ErrorMessageLoop\\ErrorMessageLoop.csproj",
+        "projectUniqueName": "C:\\Users\\ethan_vri3g7p\\Documents\\error-message-loop\\ErrorMessageLoop\\ErrorMessageLoop.csproj",
         "projectName": "ErrorMessageLoop",
-        "projectPath": "C:\\Users\\ethan_vri3g7p\\Desktop\\error-message-loop\\ErrorMessageLoop\\ErrorMessageLoop.csproj",
+        "projectPath": "C:\\Users\\ethan_vri3g7p\\Documents\\error-message-loop\\ErrorMessageLoop\\ErrorMessageLoop.csproj",
         "packagesPath": "C:\\Users\\ethan_vri3g7p\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ethan_vri3g7p\\Desktop\\error-message-loop\\ErrorMessageLoop\\obj\\",
+        "outputPath": "C:\\Users\\ethan_vri3g7p\\Documents\\error-message-loop\\ErrorMessageLoop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ethan_vri3g7p\\AppData\\Roaming\\NuGet\\NuGet.Config",
